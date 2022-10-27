@@ -5,81 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
-<title>FutureGames</title>
+    <title>FutureGames</title>
 </head>
-
 <body>
-    <!-- Barra de navegacion -->
-    
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/noticias.html">Noticias</a></li>
-                    <li><a href="./pages/reportajes.html">Reportajes</a></li>
-                    <li><a href="./pages/avances.html">Avances</a></li>
-                </ul>
-            </nav>
-            <img src="./img/menu icon.png" class="menu-icon">
+
+    <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+ 
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 fixed-top" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5 fw-bold">FUTUREGAMES</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reportajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Avances</a>
+              </li>
+            
+            </ul>
+    </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+    <div> <H2>¡Bienvenidos a God Of War!</H2></div>
+<div class="container">
+  <div class="row w-75 mx-auto">
+    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="./img/carrousel1.jpg" class="d-block w-100" alt="...">
         </div>
+
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="./img/carrousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="./img/carrousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
+</div>
 
-    <!-- Presentacion -->
-<main>
 
+ 
+    <!--========================================================== -->
+                            <!-- INICIO-->
+    <!--========================================================== -->
+<section class="w-50 mx-auto text-center pt-5" id="inicio">
+  <h1 class="p-2 fs-2 border-top border-2">¡Una pagina única para tu necesidad de sangrientas noticias sobre
+  <span class="text-primary">God of War!</span></h1>
+  <p class="p-3 fs-4">En <span class="text-primary">FutureGames</span> vas a poder encontrar las últimas novedades sobre el asesino de dioses favorito de todos. Desde videos, noticias, reportajes y hasta Análisis sobre el mismo. </span></p>
+</section>
+
+    <!--========================================================== -->
+                      <!--INFO SOBRE EL JUEGO-->
+    <!--========================================================== -->
+<section class="container-fluid">
+  <div class="row w-75">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <img src="./img/52276984248_370e55143c_h.png" alt=""
+      width="75%" height="75%">
+      <div>
+        <h3>Desarrollo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis?</p>
+      </div>
+    </div>
+  
+  <div class="col-lg-6 col-md-12 col-sm-12">
+    <img src="./img/52276984248_370e55143c_h.png" alt=""
+    width="75%" height="75%">
     <div>
-        <H2>¡Bienvenidos a God Of War!</H2>
-        <img src="./img/Kratos y Atreus Grande.png" class="presentacion">
+      <h3>Desarrollo</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis?</p>
     </div>
-
-    <section>
-        <div>
-            <h3>
-                ¿Que es God Of War?
-                <img src="./img/alfabetajuega-god-of-war-230318.png" class="que-es-gow">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi soluta porro illum ipsum, eum quas doloribus quam doloremque pariatur molestias hic accusamus aut distinctio quibusdam expedita nihil dicta sequi cumque, rerum nam! Non eligendi adipisci totam id dicta distinctio harum. Voluptatibus quis, quasi aperiam voluptas dicta eum quia temporibus est dolore, nam, aspernatur quaerat natus ducimus reiciendis in voluptate accusantium ullam vitae mollitia optio ea? Similique, illum nam, itaque reprehenderit non, cupiditate harum deserunt praesentium iure odit minus eligendi quis rerum aspernatur iste facere sit? Porro ut ipsum temporibus dolorum. Temporibus nesciunt blanditiis consectetur autem dolorem officiis quas quod molestias. ipsum dolor sit amet consectetur adipisicing elit. Magnam, minus.</p>
-            </h3>
-        </div>
-        <div>
-            <h3>Flora y Fauna deljuego</h3>
-                <img src="./img/puente gow-h.ppg.jpg" class="section-flora">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi soluta porro illum ipsum, eum quas doloribus quam doloremque pariatur molestias hic accusamus aut distinctio quibusdam expedita nihil dicta sequi cumque, rerum nam! Non eligendi adipisci totam id dicta distinctio harum. Voluptatibus quis, quasi aperiam voluptas dicta eum quia temporibus est dolore, nam, aspernatur quaerat natus ducimus reiciendis in voluptate accusantium ullam vitae mollitia optio ea? Similique, illum nam, itaque reprehenderit non, cupiditate harum deserunt praesentium iure odit minus eligendi quis rerum aspernatur iste facere sit? Porro ut ipsum temporibus dolorum. Temporibus nesciunt blanditiis consectetur autem dolorem officiis quas quod molestias. ipsum dolor sit amet consectetur adipisicing elit. Magnam, minus.</p>
-        </div>
-        <div>
-            <h3>Diferencia y Calidad de Enemigos</h3>
-                <img src="./img/Enemigosgow00.png" class="section-enemigos">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi soluta porro illum ipsum, eum quas doloribus quam doloremque pariatur molestias hic accusamus aut distinctio quibusdam expedita nihil dicta sequi cumque, rerum nam! Non eligendi adipisci totam id dicta distinctio harum. Voluptatibus quis, quasi aperiam voluptas dicta eum quia temporibus est dolore, nam, aspernatur quaerat natus ducimus reiciendis in voluptate accusantium ullam vitae mollitia optio ea? Similique, illum nam, itaque reprehenderit non, cupiditate harum deserunt praesentium iure odit minus eligendi quis rerum aspernatur iste facere sit? Porro ut ipsum temporibus dolorum. Temporibus nesciunt blanditiis consectetur autem dolorem officiis quas quod molestias. ipsum dolor sit amet consectetur adipisicing elit. Magnam, minus.</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container-footer">
-            <div class="navbar-footer">
-                <img src="./img/Omega png Rgnarok.png" class="logo">
-                <h1 class="encabezado">FutureGames</h1>
-                <nav>
-                    <ul>
-                        <li><a href="./pages/contacto.html">Contacto</a></li>
-                        <li><a href="">Noticias</a></li>
-                        <li><a href="">Reportajes</a></li>
-                        <li><a href="">Avances</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-        <div>
-            <img src="./img/609bd55506732e64d181c9b199971953.png" class="facebook">
-            <img src="./img/91440b49d97e85b3b93597c84c32a06b.png" class="instagram"> 
-            <img src="./img/u6qfBBkF_400x400.png" class="twitter">
-            <img src="./img/124034.png" class="whatsapp">
-            <p>**FutureGames** - Copyright © 2022 - 2022 - Todos los derechos reservados.</p>
-        </div>
-
-    </footer>
+  </div>
+  </div>
+</section>
+    
+    
 
 
-</main>
+  <!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+   
+
 <!-- JavaScript Bundle with Popper -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+
