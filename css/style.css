@@ -12,16 +12,15 @@ body{
 #menu a {
     font-size: 14px;
     font-weight: bold;
-    color: #3f3f3f
-    ;
 }
 
 /*===================SLIDER DE IMAGENES==========================*/
+
 carousel-inner{
     max-height: 39rem;
 }
 
-
+/*===================INFO SOBRE EL JUEGO==========================*/
 
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
 
@@ -37,11 +36,4 @@ carousel-inner{
         width: 90%;
     }
 }
-
-
-que-es-gow{
-    translate: 10px;
-    color: blue; 
-}
-
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
